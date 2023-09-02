@@ -6,6 +6,13 @@ nothing to do with those concepts.
 
 Creational patterns:
 
+Creational design patterns abstract the instantiation process. They help make
+a system independent of how its objects are created, composed, and 
+represented. A class creational pattern uses inheritance to vary the class 
+that’s instantiated, whereas an object creational pattern will delegate 
+instantiation to another object.
+
+
 	* Composite:
 	Composite pattern is a partitioning design pattern and describes a group of 
 	objects that is treated the same way as a single instance of the same type of 
