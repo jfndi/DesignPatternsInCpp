@@ -30,6 +30,17 @@ instantiation to another object.
 	of the builder design pattern is to separate the construction of a complex 
 	object from its representation.
 
+	* Singleton: 
+	The singleton design pattern is a software design principle that is used to
+	restrict the instantiation of a class to one object. This is useful when
+	exactly one object is needed to coordinate actions across the system.
+
+	* Multiton:
+	The multiton pattern is a design pattern which generalizes the singleton
+	pattern. Whereas the singleton allows only one instance of a class to be
+	created, the multiton pattern allows for the controlled creation of multiple
+	instances, which it manages through the use of a map.
+
 Structural patterns:
 
 	* Composite:
