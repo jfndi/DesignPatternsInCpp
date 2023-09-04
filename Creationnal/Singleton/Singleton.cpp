@@ -18,6 +18,11 @@ private:
 	int _value{};
 
 public:
+	Singleton(Singleton&) = delete;
+	Singleton& operator=(const Singleton&) = delete;
+
+	Singleton() {};
+
 	bool hasInstance()
 	{
 		return _instance != nullptr;
