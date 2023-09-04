@@ -12,13 +12,6 @@ represented. A class creational pattern uses inheritance to vary the class
 that’s instantiated, whereas an object creational pattern will delegate 
 instantiation to another object.
 
-
-	* Composite:
-	Composite pattern is a partitioning design pattern and describes a group of 
-	objects that is treated the same way as a single instance of the same type of 
-	object. The intent of a composite is to “compose” objects into tree structures
-	to represent part-whole hierarchies.
-
 	* Factory:
 	The factory design pattern is used when we have a superclass with multiple
 	sub-classes and based on input, we need to return one of the sub-class. This 
@@ -38,5 +31,11 @@ instantiation to another object.
 	object from its representation.
 
 Structural patterns:
+
+	* Composite:
+	Composite pattern is a partitioning design pattern and describes a group of 
+	objects that is treated the same way as a single instance of the same type of 
+	object. The intent of a composite is to “compose” objects into tree structures
+	to represent part-whole hierarchies.
 
 Behavioral patterns:
