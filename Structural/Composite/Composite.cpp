@@ -1,4 +1,5 @@
 #include <iostream>
+#include <map>
 /*
  * The composite design pattern:
  * -----------------------------
@@ -11,10 +12,17 @@
  */
 using namespace std;
 
+class MealItem
+{
+public:
+	virtual const char* get_item() const = 0;
+	~MealItem() {};
+};
+
 //
-// Base classe Entree.
+// Class Entree.
 //
-class Entree
+class Entree : public MealItem
 {
 protected:
 	char _entree[10];
@@ -27,16 +35,16 @@ public:
 		snprintf(_entree, sizeof(_entree), e);
 	}
 
-	const char* getEntree() const
+	virtual const char* get_item() const
 	{
 		return _entree;
 	}
 };
 
 //
-// Base classe Side.
+// Class Side.
 //
-class Side
+class Side : public MealItem
 {
 protected:
 	char _side[10];
@@ -49,16 +57,16 @@ public:
 		snprintf(_side, sizeof(_side), s);
 	}
 
-	const char* getSide() const
+	virtual const char* get_item() const
 	{
 		return _side;
 	}
 };
 
 //
-// Base class Drink.
+// Class Drink.
 //
-class Drink
+class Drink : public MealItem
 {
 protected:
 	char _drink[10];
@@ -71,7 +79,7 @@ public:
 		snprintf(_drink, sizeof(_drink), d);
 	}
 
-	const char* getDrink() const
+	virtual const char* get_item() const
 	{
 		return _drink;
 	}
@@ -83,9 +91,7 @@ public:
 class MealCombo
 {
 private:
-	Entree* entree{};
-	Side* side{};
-	Drink* drink{};
+	map<const char*, MealItem*> _meal{};
 	char _bag[100]{};
 
 public:
@@ -100,41 +106,35 @@ public:
 		snprintf(_bag, sizeof(_bag), "\n%s meal combo: ", type);
 	}
 
-	void setEntree(Entree* e)
+	void addMealItem(const char* what, MealItem* item)
 	{
-		entree = e;
+		_meal.insert(make_pair(what, item));
 	}
 
-	void setSide(Side* s)
+	string openMealBag()
 	{
-		side = s;
-	}
 
-	void setDrink(Drink* d)
-	{
-		drink = d;
-	}
+		string s = string(_bag) + ": \n";
+		for (auto entry : _meal)
+			s += "\t" + string(entry.first) + " " +
+			string(entry.second->get_item()) + "\n";
 
-	const char* openMealBag()
-	{
-		snprintf(_bag, sizeof(_bag), "%s: %s, %s, %s\n", _bag,
-			entree->getEntree(), side->getSide(), drink->getDrink());
 
-		return _bag;
+		return s;
 	}
 };
 
 int main()
 {
-	MealCombo* mc = new MealCombo("My dinner bag");
+	MealCombo* mc = new MealCombo("My dinner");
 
-	Entree entree("Soup");
-	Side side("Steack");
-	Drink drink("Coca");
+	MealItem* entree = new Entree("Soup");
+	MealItem* side = new Side("Crackers");
+	MealItem* drink = new Drink("Coca");
 
-	mc->setEntree(&entree);
-	mc->setSide(&side);
-	mc->setDrink(&drink);
+	mc->addMealItem("Entree", entree);
+	mc->addMealItem("Side", side);
+	mc->addMealItem("Drink", drink);
 
 	cout << mc->openMealBag();
 }
