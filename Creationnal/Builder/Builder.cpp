@@ -265,6 +265,7 @@ int main()
 	default:
 		cout << "Invalid Selection" << endl;
 		cook = NULL;
+		return 0;
 		break;
 	}
 
