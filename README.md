@@ -41,6 +41,12 @@ instantiation to another object.
 	created, the multiton pattern allows for the controlled creation of multiple
 	instances, which it manages through the use of a map.
 
+	* Prototype:
+	Prototype is a creational design pattern that allows cloning objects, even 
+	complex ones, without coupling to their specific classes. All prototype classes
+	should have a common interface that makes it possible to copy objects even if 
+	their concrete classes are unknown.
+
 Structural patterns:
 
 	* Composite:
