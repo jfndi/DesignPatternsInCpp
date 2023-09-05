@@ -62,3 +62,9 @@ Behavioral patterns:
 	request along the chain of potential handlers untilone of them handles request.
 	The pattern allows multiple objects to handle the request without coupling 
 	sender class to the concrete classes of the receivers.
+
+	* Command:
+	In command pattern, the request is send to the invoker and invoker pass it to 
+	the encapsulated command object. Command object passes the request to the 
+	appropriate method of Receiver to perform the specific action. The client 
+	program create the receiver object and then attach it to the Command.
