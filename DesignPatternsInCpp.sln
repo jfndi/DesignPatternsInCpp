@@ -23,7 +23,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prototype", "Creationnal\Pr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{AAE4C28A-7B74-44DC-A8E2-BA9A580AFBF9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChainOfResponsability", "ChainOfResponsability\ChainOfResponsability.vcxproj", "{FC6B4C0F-C4DB-4161-A61C-146AAE19C220}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChainOfResponsability", "Behavioral\ChainOfResponsability\ChainOfResponsability.vcxproj", "{FC6B4C0F-C4DB-4161-A61C-146AAE19C220}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
