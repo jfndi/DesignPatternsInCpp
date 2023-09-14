@@ -68,3 +68,8 @@ Behavioral patterns:
 	the encapsulated command object. Command object passes the request to the 
 	appropriate method of Receiver to perform the specific action. The client 
 	program create the receiver object and then attach it to the Command.
+
+	* Mediator:
+	Mediator is a behavioral design pattern that lets you reduce chaotic 
+	dependencies between objects. The pattern restricts direct communications 
+	between the objects and forces them to collaborate only via a mediator object.
