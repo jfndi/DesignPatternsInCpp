@@ -73,3 +73,9 @@ Behavioral patterns:
 	Mediator is a behavioral design pattern that lets you reduce chaotic 
 	dependencies between objects. The pattern restricts direct communications 
 	between the objects and forces them to collaborate only via a mediator object.
+
+	* Observer:
+	In software design and engineering, the observer pattern is a software design 
+	pattern in which an object, named the subject, maintains a list of its 
+	dependents, called observers, and notifies them automatically of any state 
+	changes, usually by calling one of their methods.
