@@ -9,7 +9,7 @@ Creational patterns:
 Creational design patterns abstract the instantiation process. They help make
 a system independent of how its objects are created, composed, and 
 represented. A class creational pattern uses inheritance to vary the class 
-thatís instantiated, whereas an object creational pattern will delegate 
+that‚Äôs instantiated, whereas an object creational pattern will delegate 
 instantiation to another object.
 
 	* Factory:
@@ -52,7 +52,7 @@ Structural patterns:
 	* Composite:
 	Composite pattern is a partitioning design pattern and describes a group of 
 	objects that is treated the same way as a single instance of the same type of 
-	object. The intent of a composite is to ìcomposeî objects into tree structures
+	object. The intent of a composite is to ‚Äúcompose‚Äù objects into tree structures
 	to represent part-whole hierarchies.
 
 Behavioral patterns:
@@ -86,3 +86,14 @@ Behavioral patterns:
 	(terminal or nonterminal) in a specialized computer language. The syntax tree 
 	of a sentence in the language is an instance of the composite pattern and is 
 	used to evaluate (interpret) the sentence for a client.
+
+ 	* State:
+  	The state pattern is a behavioral software design pattern that allows an object
+	to alter its behavior when its internal state changes. This pattern is close to 
+	the concept of finite-state machines. The state pattern can be interpreted as a
+	strategy pattern, which is able to switch a strategy through invocations of 
+	methods defined in the pattern's interface.
+	The state pattern is used in computer programming to encapsulate varying 
+	behavior for the same object, based on its internal state. This can be a 
+	cleaner way for an object to change its behavior at runtime without resorting
+	to conditional statements and thus improve maintainability.
