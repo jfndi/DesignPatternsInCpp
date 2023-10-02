@@ -97,3 +97,10 @@ Behavioral patterns:
 	behavior for the same object, based on its internal state. This can be a 
 	cleaner way for an object to change its behavior at runtime without resorting
 	to conditional statements and thus improve maintainability.
+	
+	* Strategy:
+	The strategy pattern (also known as the policy pattern) is a behavioral 
+	software design pattern that enables selecting an algorithm at runtime. Instead
+	of implementing a single algorithm directly, code receives run-time 
+	instructions as to which in a family of algorithms to use.
+	Strategy lets the algorithm vary independently from clients that use it
