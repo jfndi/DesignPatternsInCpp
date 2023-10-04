@@ -104,3 +104,8 @@ Behavioral patterns:
 	of implementing a single algorithm directly, code receives run-time 
 	instructions as to which in a family of algorithms to use.
 	Strategy lets the algorithm vary independently from clients that use it
+	
+	* Template method:
+	Template Method is a behavioral design pattern that defines the skeleton of an
+	algorithm in the superclass but lets subclasses override specific steps of the
+	algorithm without changing its structure.
