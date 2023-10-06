@@ -109,3 +109,8 @@ Behavioral patterns:
 	Template Method is a behavioral design pattern that defines the skeleton of an
 	algorithm in the superclass but lets subclasses override specific steps of the
 	algorithm without changing its structure.
+
+	* Visitor:
+	Visitor pattern is used when we have to perform an operation on a group of 
+	similar kind of Objects. With the help of visitor pattern, we can move the 
+	operational logic from the objects to another class. 

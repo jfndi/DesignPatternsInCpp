@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Strategy", "Behavioral\Stra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "template-method", "Behavioral\template-method\template-method.vcxproj", "{CF58431D-2FD7-413E-BD29-423C67EFBE6E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "visitor", "Behavioral\visitor\visitor.vcxproj", "{51C84356-6AC0-48B9-B4B6-8092D1A121A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -177,6 +179,14 @@ Global
 		{CF58431D-2FD7-413E-BD29-423C67EFBE6E}.Release|x64.Build.0 = Release|x64
 		{CF58431D-2FD7-413E-BD29-423C67EFBE6E}.Release|x86.ActiveCfg = Release|Win32
 		{CF58431D-2FD7-413E-BD29-423C67EFBE6E}.Release|x86.Build.0 = Release|Win32
+		{51C84356-6AC0-48B9-B4B6-8092D1A121A7}.Debug|x64.ActiveCfg = Debug|x64
+		{51C84356-6AC0-48B9-B4B6-8092D1A121A7}.Debug|x64.Build.0 = Debug|x64
+		{51C84356-6AC0-48B9-B4B6-8092D1A121A7}.Debug|x86.ActiveCfg = Debug|Win32
+		{51C84356-6AC0-48B9-B4B6-8092D1A121A7}.Debug|x86.Build.0 = Debug|Win32
+		{51C84356-6AC0-48B9-B4B6-8092D1A121A7}.Release|x64.ActiveCfg = Release|x64
+		{51C84356-6AC0-48B9-B4B6-8092D1A121A7}.Release|x64.Build.0 = Release|x64
+		{51C84356-6AC0-48B9-B4B6-8092D1A121A7}.Release|x86.ActiveCfg = Release|Win32
+		{51C84356-6AC0-48B9-B4B6-8092D1A121A7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -198,6 +208,7 @@ Global
 		{3AF873DF-6057-426D-B62C-19B8A42CE453} = {AAE4C28A-7B74-44DC-A8E2-BA9A580AFBF9}
 		{47EBDF6F-0715-48AA-B32D-EED5FEC3A958} = {AAE4C28A-7B74-44DC-A8E2-BA9A580AFBF9}
 		{CF58431D-2FD7-413E-BD29-423C67EFBE6E} = {AAE4C28A-7B74-44DC-A8E2-BA9A580AFBF9}
+		{51C84356-6AC0-48B9-B4B6-8092D1A121A7} = {AAE4C28A-7B74-44DC-A8E2-BA9A580AFBF9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB44E25C-D772-4D4C-BA0B-47DA75BBFDF1}
