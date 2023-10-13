@@ -114,3 +114,9 @@ Behavioral patterns:
 	Visitor pattern is used when we have to perform an operation on a group of 
 	similar kind of Objects. With the help of visitor pattern, we can move the 
 	operational logic from the objects to another class. 
+	
+	* Iterator:
+	The iterator pattern is a design pattern in which an iterator is used to 
+	traverse a container and access the container's elements. The iterator pattern 
+	decouples algorithms from containers; in some cases, algorithms are necessarily
+	container-specific and thus cannot be decoupled.
