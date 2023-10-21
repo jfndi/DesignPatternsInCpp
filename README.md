@@ -120,3 +120,9 @@ Behavioral patterns:
 	traverse a container and access the container's elements. The iterator pattern 
 	decouples algorithms from containers; in some cases, algorithms are necessarily
 	container-specific and thus cannot be decoupled.
+	
+	* Memento:
+	The memento pattern is a software design pattern that exposes the private 
+	internal state of an object. One example of how this can be used is to restore 
+	an object to its previous state (undo via rollback), another is versioning, 
+	another is custom serialization.
