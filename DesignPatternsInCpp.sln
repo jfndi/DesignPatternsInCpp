@@ -47,7 +47,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iterator", "Behavioral\iter
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memento", "Behavioral\memento\memento.vcxproj", "{BCE20480-FFCF-4013-9D8B-1D90DD28CD08}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "null-object", "null-object\null-object.vcxproj", "{CAC426E7-8AE4-46A4-ACFC-B1F1410B6AB4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "null-object", "Behavioral\null-object\null-object.vcxproj", "{CAC426E7-8AE4-46A4-ACFC-B1F1410B6AB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
