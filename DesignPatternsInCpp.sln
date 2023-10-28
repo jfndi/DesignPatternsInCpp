@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memento", "Behavioral\memen
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "null-object", "Behavioral\null-object\null-object.vcxproj", "{CAC426E7-8AE4-46A4-ACFC-B1F1410B6AB4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "object-adapter", "Structural\object-adapter\object-adapter.vcxproj", "{0DED9EE1-439D-484C-A61C-6775DC89E656}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -217,6 +219,14 @@ Global
 		{CAC426E7-8AE4-46A4-ACFC-B1F1410B6AB4}.Release|x64.Build.0 = Release|x64
 		{CAC426E7-8AE4-46A4-ACFC-B1F1410B6AB4}.Release|x86.ActiveCfg = Release|Win32
 		{CAC426E7-8AE4-46A4-ACFC-B1F1410B6AB4}.Release|x86.Build.0 = Release|Win32
+		{0DED9EE1-439D-484C-A61C-6775DC89E656}.Debug|x64.ActiveCfg = Debug|x64
+		{0DED9EE1-439D-484C-A61C-6775DC89E656}.Debug|x64.Build.0 = Debug|x64
+		{0DED9EE1-439D-484C-A61C-6775DC89E656}.Debug|x86.ActiveCfg = Debug|Win32
+		{0DED9EE1-439D-484C-A61C-6775DC89E656}.Debug|x86.Build.0 = Debug|Win32
+		{0DED9EE1-439D-484C-A61C-6775DC89E656}.Release|x64.ActiveCfg = Release|x64
+		{0DED9EE1-439D-484C-A61C-6775DC89E656}.Release|x64.Build.0 = Release|x64
+		{0DED9EE1-439D-484C-A61C-6775DC89E656}.Release|x86.ActiveCfg = Release|Win32
+		{0DED9EE1-439D-484C-A61C-6775DC89E656}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -242,6 +252,7 @@ Global
 		{A8DBC9ED-79F5-4E87-92BA-8DC998471EDE} = {AAE4C28A-7B74-44DC-A8E2-BA9A580AFBF9}
 		{BCE20480-FFCF-4013-9D8B-1D90DD28CD08} = {AAE4C28A-7B74-44DC-A8E2-BA9A580AFBF9}
 		{CAC426E7-8AE4-46A4-ACFC-B1F1410B6AB4} = {AAE4C28A-7B74-44DC-A8E2-BA9A580AFBF9}
+		{0DED9EE1-439D-484C-A61C-6775DC89E656} = {768CDFBE-73B9-4782-88AE-E87FC594550B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB44E25C-D772-4D4C-BA0B-47DA75BBFDF1}
