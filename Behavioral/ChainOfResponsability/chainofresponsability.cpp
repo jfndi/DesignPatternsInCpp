@@ -115,8 +115,6 @@ public:
 
 int main()
 {
-	vector<string> oldPasswords{ "abc123", "123456", "hello" };
-
 	BaseValidator* emailValidator = new BaseValidator;
 
 	emailValidator->setNext(new NotEmptyValidator)
