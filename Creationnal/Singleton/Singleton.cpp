@@ -47,18 +47,18 @@ public:
 	}
 };
 
-Singleton* Singleton::_instance = nullptr;
+Singleton* Singleton::_instance{};
 
 int main()
 {
-	Singleton* s1 = nullptr;
+	Singleton* s1{};
 
 	s1 = s1->getInstance();
 	s1->setValue(42);
 
 	cout << "Instance 1 address: 0x" << s1 << " value: " << s1->getValue() << endl;
 
-	Singleton* s2 = nullptr;
+	Singleton* s2{};
 	s2 = s2->getInstance();
 	cout << "Instance 2 address: 0x" << s2 << " value: " << s2->getValue() << endl;
 }
