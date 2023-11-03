@@ -13,9 +13,9 @@ using namespace std;
 class Animal
 {
 protected:
-	char _hairColor[10];
-	int _hairLength, _tail, _weight, _height, _age;
-	int _intelligence, _stubbornness, _aggressiveness;
+	char _hairColor[10]{};
+	int _hairLength{}, _tail{}, _weight{}, _height{}, _age{};
+	int _intelligence{}, _stubbornness{}, _aggressiveness{};
 
 public:
 	virtual Animal* clone() = 0;
