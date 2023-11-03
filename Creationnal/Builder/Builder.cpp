@@ -166,7 +166,7 @@ public:
 class MealBuilder
 {
 protected:
-	MealCombo* _meal;
+	MealCombo* _meal{};
 
 public:
 	virtual void cookEntree() {};
@@ -243,7 +243,7 @@ public:
 
 int main()
 {
-	MealBuilder* cook = new MealBuilder;
+	MealBuilder* cook{};
 	MealCombo* meal{};
 	int choice{};
 
